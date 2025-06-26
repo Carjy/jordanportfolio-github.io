@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>jordan's portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<style>
+		#profile-photo img {
+			transition: transform 0.4s ease, box-shadow 0.4s ease;
+		}
+		#profile-photo img:hover {
+			transform: scale(1.05);
+			box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+		}
+		#toTopBtn {
+			display: none;
+			position: fixed;
+			bottom: 30px;
+			right: 30px;
+			z-index: 99;
+			font-size: 24px;
+			background-color: #333;
+			color: white;
+			border: none;
+			border-radius: 50%;
+			padding: 12px 15px;
+			cursor: pointer;
+		}
+		#toTopBtn:hover {
+			background-color: #555;
+		}
+	</style>
+</head>
+<body class="is-preload">
+	<div id="wrapper">
+		<header id="header" class="alt">
+			<a href="index.html" class="logo"><strong>Myportfolio</strong> <span>by Jordan</span></a>
+		</header>
+		<button id="themeToggle" style="position:absolute; top:1em; right:1em;">🌙</button>
+
+		<section id="banner" class="major" data-aos="fade-up">
+			<div class="inner">
+				<header class="major">
+					<h1><span id="typewriter"></span></h1>
+				</header>
+				<div class="content">
+					<p>
+						I’m Elie Jordan, a curious and driven tech enthusiast with a strong interest in building useful and intelligent digital tools.
+						My work blends creativity, logic, and problem-solving to deliver real solutions. I'm passionate about cybersecurity, data analysis, and machine learning.
+						I'm always exploring new ideas, learning new skills, and working to create tools that make tech feel simple, secure, and impactful.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<div id="main">
+			<section id="one" class="tiles">
+				<article data-aos="zoom-in">
+					<span class="image">
+						<img src="images/data-cleaning.jpg" alt="" />
+					</span>
+					<header class="major">
+						<h3><a href="https://github.com/Carjy/myprojects/tree/main/Data%20Cleaning" class="link">Data cleaning</a></h3>
+						<p>This project involved working with messy datasets containing missing values, duplicates and inconsistent data</p>
+						
+					</header>
+				</article>
+				<article data-aos="zoom-in">
+					<span class="image">
+						<img src="images/6437.jpg" alt="" />
+					</span>
+					<header class="major">
+						<h3><a href="https://github.com/Carjy/myprojects/tree/main/Calculator" class="link">Calculator</a></h3>
+						<p>Terminal-based calculator in Python supporting basic operations with input validation and error handling.</p>
+					</header>
+				</article>
+				<article data-aos="zoom-in">
+					<span class="image">
+						<img src="images/images.png" alt="" />
+					</span>
+					<header class="major">
+						<h3><a href="https://github.com/Carjy/myprojects/blob/main/Amazon%20Web%20Scraper%20Project.ipynb?short_path=7a317cf#L6" class="link"> Amazon Web Scraper</a></h3>
+						<p>Built a tool with Python (BeautifulSoup + Requests) to extract real-time data from multiple websites.</p>
+					</header>
+				</article>
+				<article data-aos="zoom-in">
+					<span class="image">
+						<img src="images/3872690.jpg" alt="" />
+					</span>
+					<header class="major">
+						<h3><a href="https://github.com/Carjy/myprojects/tree/main/Phishing-URL-Detection-Website" class="link">Phishing Website Detection</a></h3>
+						<p>Educational site with interactive content and simulated phishing for awareness and best practices.</p>
+					</header>
+				</article>
+			</section>
+
+			<section id="two">
+				<div class="inner" style="align-content: center;">
+					<header class="major">
+						<h2>About Me</h2>
+					</header>
+		<div style="text-align: center;">
+  <img src="images/jordan.jpg" alt="Jordan's Photo" style="max-width: 200px; border-radius: 50%; box-shadow: 0 4px 10px rgba(0,0,0,0.2);" />
+  <p style="margin-top: 1em;">This is me — Jordan Elie, always ready to explore and create in the tech world.</p>
+</div>
+
+				</div>
+			</section>
+
+			<section id="contact">
+				<div class="inner">
+					<form method="post" action="#">
+						<div class="fields">
+							<div class="field half">
+								<label for="name">Name</label>
+								<input type="text" name="name" id="name" />
+							</div>
+							<div class="field half">
+								<label for="email">Email</label>
+								<input type="text" name="email" id="email" />
+							</div>
+							<div class="field">
+								<label for="message">Message</label>
+								<textarea name="message" id="message" rows="6"></textarea>
+							</div>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send Message" class="primary" /></li>
+							<li><input type="reset" value="Clear" /></li>
+						</ul>
+					</form>
+					<section class="split">
+						<section>
+							<div class="contact-method">
+								<span class="icon solid alt fa-envelope"></span>
+								<h3>Email</h3>
+								<a href="#">jordanelie86@gmail.com</a>
+							</div>
+						</section>
+						<section>
+							<div class="contact-method">
+								<span class="icon solid alt fa-phone"></span>
+								<h3>Phone</h3>
+								<li>+91 9588812478 (India)</li>
+								<li>+225 0787898783 (CIV)</li>
+							</div>
+						</section>
+						<section>
+							<div class="contact-method">
+								<span class="icon solid alt fa-home"></span>
+								<h3>Address</h3>
+								<span>Yopougon Annaneraie<br />Abidjan<br />Ivory Coast</span>
+							</div>
+						</section>
+					</section>
+				</div>
+			</section>
+
+			<footer id="footer">
+				<div class="inner">
+					<p>&copy; <span id="year"></span> Jordan Elie. All rights reserved.</p>
+					<ul class="icons">
+						<li><a href="github.com/dashboard#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="https://www.linkedin.com/in/elie-jordan-n’guessan-9786631a0/#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+					</ul>
+				</div>
+			</footer>
+	</div>
+
+	<a href="#top" id="toTopBtn" title="Go to top">&#8679;</a>
+
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+		document.getElementById('year').textContent = new Date().getFullYear();
+		const toTopBtn = document.getElementById("toTopBtn");
+		window.onscroll = () => {
+			toTopBtn.style.display = (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) ? "block" : "none";
+		};
+		const texts = ["Hi, I'm Jordan 👋",
+  "Cybersecurity & AI Enthusiast 🔐🤖",
+  "I Love Making Sense of Data 📊",
+  "Exploring Machine Learning for NTC 🌐",
+  "Let's Build a Smarter Digital World Together!"];
+		let count = 0, index = 0, currentText = '', letter = '';
+		(function type() {
+			if (count === texts.length) count = 0;
+			currentText = texts[count];
+			letter = currentText.slice(0, ++index);
+			document.getElementById('typewriter').textContent = letter;
+			if (letter.length === currentText.length) {
+				count++;
+				index = 0;
+				setTimeout(type, 1500);
+			} else {
+				setTimeout(type, 100);
+			}
+		})();
+	</script>
+	
+<footer>
+	<li>@Jordan 2025</li>
+		</footer>
+</body>
+</html>
